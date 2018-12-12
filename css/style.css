@@ -1,0 +1,92 @@
+body,html{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+
+}
+header
+{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    box-align: center;
+    padding: 0;
+    display: inline; 
+    line-height: 80px;
+
+}
+
+nav ul li{
+    display: inline;
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    width;100px;
+    display: block;
+    padding:15px;
+    transition: 0.4s;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../image/img.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section{
+      display: flex;
+      width:100;
+  }
+  .side{
+      flex: 30%;
+      padding: 0;
+  }
+  .aside{
+      flex: 30%;
+      padding: 0;
+  }
+  .image{
+      /* The image used */
+    background-image: url("../image/inspiration.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -10px;
+
+  }
+  .image{
+      background: cover;
+  }
+  footer{
+      padding: 20px;
+      text-align: center;
+      
+      height: 20px;
+      
+  }
+  .fa-youtube{
+      color: red;
+  }
+  .fa-facebook{
+      color:blue;
+  }
+  .fa-instagram{
+      color:lightblue;
+  }
